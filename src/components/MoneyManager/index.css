@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.addTransitionContainer {
+  display: flex;
+}
+.addTransition {
+  border: 1px solid grey;
+  padding: 15px;
+  margin: 0;
+  width: 50%;
+  height: 400px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+.moneyManger {
+  padding: 15px;
+}
+.formContainer input {
+  margin-top: 7px;
+  padding: 10px;
+}
+.transactionContainer {
+  padding: 15px;
+  margin-left: 15px;
+  width: 50%;
+  border: 1px solid grey;
+}
+.transactionContainer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.spanTitle {
+  display: flex;
+
+  border: 1px solid grey;
+}
+.spanTitle p {
+  font-weight: bold;
+  padding-left: 88px;
+}
+select {
+  padding: 10px;
+}
+label {
+  margin-top: 10px;
+}
+.formContainer button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #0b69ff;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  width: 130px;
+  cursor: pointer;
+}
+.historyList {
+  padding: 10px;
+  border: 1px solid #334155;
+  border-top: none;
+}
+.historyList span {
+  padding-left: 88px;
+}
+.historyList button {
+  cursor: pointer;
+  padding-left: 88px;
+  border: none;
+  background: transparent;
+}
+.historyList img {
+  width: 20px;
+}
+@media (max-width: 576px) {
+  .addTransitionContainer {
+    display: flex;
+    justify-content: column;
+  }
+  .addTransition {
+    width: 100%;
+  }
+  .transactionContainer {
+    width: 100%;
+  }
+}
